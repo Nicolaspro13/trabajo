@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
-    <thead>
-        <meta charset=¨UTF-8¨>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"
-        <link rel="stylesheet" href="./css/styles.css">
-        
-    </thead>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+   
         <table class="table">
             
-            <thead>
+            <thead class="columnas">
                 <th colspan="4">Notas </th>
             </thead>
                 <tbody>
                     <tr>
-                        <td>Nombre: Nicolas Herrera</td>
+                        <td colspan="4">Nombre: Nicolas Herrera</td>
                     </tr>
                     <tr>
-                        <td> Semetre: 2</td>
+                        <td colspan="4"> Semetre: 2</td>
                     </tr>
                 </tbody>
-                <thead> 
+                <tr> 
+                    <tr class="columnas">
                     <th>Asignatira</th>
                     <th> Evaluacion 1</th>
                     <th> Evaluacion 2</th>
                     <th> Nota final </th>
+                    </tr>
                     <tr>
+                        <tr class="materias">
                         <th> Analisis </th>
                         <th> 4.0</th>
                         <th> 4.0</th>
@@ -34,6 +38,7 @@
                                             
                     </tr>
                     <tr>
+                        <tr class="materias">
                         <th> Derecho </th>
                         <th> 4.0</th>
                         <th> 4.1</th>
@@ -41,6 +46,7 @@
                                             
                     </tr>
                     <tr>
+                        <tr class="materias">
                         <th> Sonido </th>
                         <th> 3.0</th>
                         <th> 3.9</th>
@@ -48,6 +54,7 @@
                                             
                     </tr>
                     <tr>
+                        <tr class="materias">
                         <th> finanzas </th>
                         <th> 3.9</th>
                         <th> 3.9</th>
@@ -56,8 +63,11 @@
                     </tr>
                     
                 </thead>
-                <tfoot>
+                <tfoot class="columnas">
                     <td colspan="4">Fecha 1/03/2023</td>
                 </tfoot>
         </table>
-    </body>
+   
+
+</body>
+</html>
